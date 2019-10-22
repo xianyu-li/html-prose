@@ -1,0 +1,58 @@
+/* 
+    GLOBAL 
+    TYPOGRAPHY
+    NAVIGATION
+font-family: 'Playfair Display', serif;
+font-family: 'Gilda Display', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Lobster', cursive;
+font-family: 'Poiret One', cursive;
+ */
+
+ body {
+    background: url(https://www.identifythisart.com/gallery/symbolism/1/the-dream-by-pierre-puvis-de-chavannes.jpg) lavender;
+    
+ }
+
+ .text{
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    font-family: 'Playfair Display',serif;
+    font-size: 90px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 50px;
+    padding-top: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-transform: uppercase;
+    animation: textflash .50s infinite linear;
+    -webkit-animation: textflash .50s infinite linear;
+
+}
+
+@keyframes textflash {
+    0%   {font-family: 'Playfair Display', serif;}
+    25%  {font-family: 'Gilda Display', serif;}
+    50%  {font-family: 'Major Mono Display', monospace;}
+    75%  {font-family: 'Lobster', cursive;}
+    100% {font-family: 'Poiret One', cursive;}
+}
+
+@-webkit-keyframes textflash {
+    0%   {font-family: 'Playfair Display', serif;}
+    25%  {font-family: 'Gilda Display', serif;}
+    50%  {font-family: 'Major Mono Display', monospace;}
+    75%  {font-family: 'Lobster', cursive;}
+    100% {font-family: 'Poiret One', cursive;}
+}
+

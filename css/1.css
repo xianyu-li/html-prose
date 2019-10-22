@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.text{
+    
+    color: white;
+    font-size: 100px;
+    margin: 0 auto;
+
+}
+
+a:link{
+    font-size: 300px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.light{ 
+    font-family: 'Poiret One', cursive;
+    color: yellow;
+    text-shadow: 0 0 80px white, 0 0 30px gainsboro;
+
+}
