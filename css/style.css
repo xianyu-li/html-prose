@@ -18,10 +18,10 @@ font-family: 'Poiret One', cursive;
     align-items: center;
     color: white;
     flex-direction: row;
-    font-family: 'Playfair Display',serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 90px;
-    font-weight: bolder;
-    text-transform: capitalize;
+    /* font-weight: bolder; */
+    text-transform: uppercase;
     padding: 50px;
     padding-top: 15%;
     justify-content: center;
@@ -35,24 +35,30 @@ a:link {
 
 a:hover {
     text-transform: uppercase;
-    animation: textflash .50s infinite linear;
-    -webkit-animation: textflash .50s infinite linear;
+    animation: textflash 1s infinite linear;
+    -webkit-animation: textflash 1s infinite linear;
 
 }
 
 @keyframes textflash {
     0%   {font-family: 'Playfair Display', serif;}
     25%  {font-family: 'Gilda Display', serif;}
+    32%  {font-family: 'Roboto', sans-serif;}
     50%  {font-family: 'Major Mono Display', monospace;}
+    62%  {font-family: 'Righteous', cursive;}
     75%  {font-family: 'Lobster', cursive;}
+    82%  {font-family: 'Abril Fatface', cursive;}
     100% {font-family: 'Poiret One', cursive;}
 }
 
 @-webkit-keyframes textflash {
     0%   {font-family: 'Playfair Display', serif;}
     25%  {font-family: 'Gilda Display', serif;}
+    32%  {font-family: 'Roboto', sans-serif;}
     50%  {font-family: 'Major Mono Display', monospace;}
+    62%  {font-family: 'Righteous', cursive;}
     75%  {font-family: 'Lobster', cursive;}
+    82%  {font-family: 'Abril Fatface', cursive;}
     100% {font-family: 'Poiret One', cursive;}
 }
 
