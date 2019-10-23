@@ -14,7 +14,7 @@ body{
     text-align: center;
     padding: 20px;
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -29,19 +29,31 @@ a:visited{
 }
 
 .text2{
-    animation: skew 2s infinite linear;
+    animation: wave 3s ease-in-out infinite;
     color:white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poiret One', cursive;
     text-align: center;
-    
-
+    text-transform: capitalize;
+    letter-spacing: -10px;
 }
 
 
+@keyframes wave{
+        0%, 50%, 100% { 
+          transform: translateY(0);
+         color: black;
+        }
+        10% { 
+          transform: translateY(-15px); 
+        color: white;
+        }  
+      }
+
+/* 
 @keyframes skew {
 	0% {transform: skewX(0deg)}
 	25% {transform: skewX(20deg)}
     50% {transform: skewX(0deg)}
     75% {transform: skewX(-20deg)}
 	100% {transform: skewX(0px);}
-}
+} */

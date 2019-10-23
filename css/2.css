@@ -1,13 +1,20 @@
-
+html{
+    height: 100%
+}
 body {
-    font-family: 'Roboto', sans-serif;
     animation: colorflash 3s infinite linear;
     align-content: center;
     background: url(https://i.pinimg.com/originals/30/52/13/3052136d9b22f4bb60d8457821d81290.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    font-family: 'Roboto', sans-serif;
+    text-align: center;    
+    display:flex;
+    align-items:center;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 
@@ -15,33 +22,32 @@ body {
     color: white;
     padding-left: 20px;
     font-size: 30px;
-
+    display: flex;
 }
 
 .text2{
     color: white;
     display: flex;
     padding-left: 10px;
-    font-size: 100px;
+    font-size: 90px;
   
     
 }
 
 @keyframes float{
-    0% {
+    0%, 100% {
         transform: translatey(0px);
 	}
 	50% {
 		transform: translatey(-20px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+	}   
 }
 
 a:link{
+    font-family: 'Poiret One', cursive;
     color: inherit;
     text-decoration: none;
+    text-transform: uppercase;
     animation: float 2s infinite linear;
 }
 

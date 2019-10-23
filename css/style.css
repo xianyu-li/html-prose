@@ -26,6 +26,7 @@ font-family: 'Poiret One', cursive;
     padding-top: 15%;
     justify-content: center;
     align-items: center;
+ 
 }
 
 a:link {
@@ -38,6 +39,10 @@ a:hover {
     animation: textflash 1s infinite linear;
     -webkit-animation: textflash 1s infinite linear;
 
+}
+
+text 3{
+    color: red;
 }
 
 @keyframes textflash {
