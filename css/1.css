@@ -32,7 +32,7 @@ a:visited{
 }
 
 .light:hover{
-    text-shadow: 0 0 80px white, 0 0 30px gainsboro;
+    text-shadow: 0 0 80px white, 0 0 30px gainsboro, 0 0 10px white;
 }
 
 .color{

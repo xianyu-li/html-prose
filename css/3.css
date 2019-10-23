@@ -1,14 +1,24 @@
+html{
+    height: 100%
+}
 body{
     background-color: black;
+    display:flex;
+    align-items:center;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .text{
+    text-align: center;
     padding: 20px;
     color:white;
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
 
 }
+
 a:link{
     font-size: 100px;
     color: inherit;
@@ -18,20 +28,20 @@ a:visited{
     color: inherit;
 }
 
-.text:hover{
-    animation: float 4s infinite linear;
+.text2{
+    animation: skew 2s infinite linear;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    
+
 }
 
 
-
-@keyframes float {
-	0% {
-        transform: translatey(0px);
-	}
-	50% {
-		transform: translatey(400px);
-	}
-	100% {
-		transform: translatey(0px);
-	}
+@keyframes skew {
+	0% {transform: skewX(0deg)}
+	25% {transform: skewX(20deg)}
+    50% {transform: skewX(0deg)}
+    75% {transform: skewX(-20deg)}
+	100% {transform: skewX(0px);}
 }
