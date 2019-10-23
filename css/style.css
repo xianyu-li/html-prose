@@ -41,9 +41,6 @@ a:hover {
 
 }
 
-text 3{
-    color: red;
-}
 
 @keyframes textflash {
     0%   {font-family: 'Playfair Display', serif;}
