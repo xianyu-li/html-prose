@@ -1,17 +1,41 @@
 body {
-
+background: url(http://res.cloudinary.com/culturemap-com/image/upload/ar_4:3,c_fill,g_faces:center,w_1200/v1560965149/photos/297592_original.jpg);
+background-size: cover; 
 }
 
 .text{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    
-
+    color:white;
+    padding-left: 60px;
+    padding-top: 100px;
 }
-
-a:link
 
 .text2{
-    color: black;
-    
+    padding: 50px;
+    padding-top: 150px;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    color: white;
+    animation: color 3s ease-in-out infinite;
 }
+
+a:link{
+    color:inherit;
+    text-decoration: none;
+    font-size: 200px;
+
+}
+
+a:visited{
+    color:inherit;
+}
+
+@keyframes color{
+    0%, 50%, 100% { 
+    filter: opacity(0)
+    }
+    20% {
+        filter: opacity(100);
+    }
+  }

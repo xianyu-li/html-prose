@@ -2,6 +2,9 @@ html{
     height: 100%
 }
 body{
+    background: url(https://i.gifer.com/77Y.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: black;
     display:flex;
     align-items:center;
