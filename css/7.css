@@ -1,0 +1,47 @@
+html{
+    min-height: 100%
+}
+
+body{
+    background: black
+
+}
+
+.text{
+    color:white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    filter: blur(0)
+}
+.text:hover{
+   
+}
+
+a:link{
+    color:inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poiret One', cursive;
+
+}
+a:visited{
+    color:inherit
+}
+
+a{
+    color:white;
+    font-size: 200px;
+}
+
+.text2{
+    color:white;    
+    text-shadow: 0 0 20px white;
+    color: transparent;
+}
+
+.text2:hover{
+    transition: 1s;
+    color:white;
+}
+
+}

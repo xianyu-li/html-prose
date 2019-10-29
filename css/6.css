@@ -1,0 +1,61 @@
+html{
+    min-height: 100%
+}
+body{
+    background: black;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.text{
+    color:white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link{
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:visited{
+    color:inherit;
+}
+
+.text2{ 
+    display:flex;
+}
+.inter{
+    color:white;
+    font-family: 'Poiret One', cursive;
+    font-size: 100px;
+    animation: move 3s ease-in-out infinite;
+}
+.mingled{
+    color:white;
+    font-family: 'Poiret One', cursive;
+    font-size: 100px;
+    animation: move2 3s ease-in-out infinite;
+}
+
+@keyframes move{
+    0%, 100% {
+        transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(50px);
+	}   
+
+}
+
+@keyframes move2 {
+    0%, 100% {   
+    transform: translatex(0px);
+}
+    50% {
+    transform: translatex(-50px);
+}     
+)
