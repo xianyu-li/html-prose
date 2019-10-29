@@ -3,18 +3,17 @@ html{
 }
 
 body{
-    background: black
+    background: black;
+    padding: 30px;
 
 }
 
 .text{
+    padding-left: 10px;
     color:white;
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     filter: blur(0)
-}
-.text:hover{
-   
 }
 
 a:link{
@@ -25,7 +24,7 @@ a:link{
 
 }
 a:visited{
-    color:inherit
+    color:inherit;
 }
 
 a{
@@ -41,7 +40,6 @@ a{
 
 .text2:hover{
     transition: 1s;
-    color:white;
+    color: white;
 }
 
-}
