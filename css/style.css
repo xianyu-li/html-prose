@@ -29,9 +29,14 @@ font-family: 'Poiret One', cursive;
  
 }
 
+.text3{
+    position: static;
+}
+
 a:link {
     color: white;
     text-decoration: none;
+    font-size: 150px;
 }
 
 a:hover {
