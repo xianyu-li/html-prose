@@ -31,19 +31,20 @@ a:visited{
     color:inherit;
 }
 
-.tragedy span{   
+.tragedy {   
     color:white;
     font-size: 200px;
-    animation: wave 2s ease  infinite;
+    animation: wave 3s ease  infinite;
  }
 
-/* .tragedy span:nth-child(1){ animation-delay:0;}
+.tragedy span:nth-child(1){ animation-delay:0s;}
 .tragedy span:nth-child(2){ animation-delay:.1s;}
 .tragedy span:nth-child(3){ animation-delay:.2s;}
 .tragedy span:nth-child(4){ animation-delay:.3s;}
 .tragedy span:nth-child(5){ animation-delay:.4s;}
 .tragedy span:nth-child(6){ animation-delay:.5s;}
-.tragedy span:nth-child(7){ animation-delay:.6s;} */
+.tragedy span:nth-child(7){ animation-delay:.6s;}
+
 
 @keyframes wave{
     0%, 40%, 100% { 
@@ -51,9 +52,9 @@ a:visited{
       
     }
     10% { 
-      transform: translate(0, -100px); 
+      transform: translate(0, 300px); 
        
     }  
-}
+  }
 
 
