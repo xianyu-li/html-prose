@@ -13,48 +13,60 @@ body{
     min-height: 100%;
 }
 
+
 .text{
+    padding: 20px;
     color:white;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
 
 }
 
-a:link{
-    color:inherit;
-    text-decoration: none;
-    text-transform: uppercase;
+.interest span{
+    padding:20px;
+    color:white;
     font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    display: inline-block;
+    animation: wave 4s ease  infinite;
 
+}
+a:link{
+    font-size: 200px;
+    color: inherit;
+    text-decoration: none;
 }
 a:visited{
-    color:inherit;
+    color: inherit;
 }
 
-.tragedy {   
-    color:white;
-    font-size: 200px;
-    animation: wave 3s ease  infinite;
- }
 
-.tragedy span:nth-child(1){ animation-delay:0s;}
-.tragedy span:nth-child(2){ animation-delay:.1s;}
-.tragedy span:nth-child(3){ animation-delay:.2s;}
-.tragedy span:nth-child(4){ animation-delay:.3s;}
-.tragedy span:nth-child(5){ animation-delay:.4s;}
-.tragedy span:nth-child(6){ animation-delay:.5s;}
-.tragedy span:nth-child(7){ animation-delay:.6s;}
+.text2{
+    padding: 20px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.interest span:nth-child(1){ animation-delay:0;}
+.interest span:nth-child(2){ animation-delay:.2s;}
+.interest span:nth-child(3){ animation-delay:.4s;}
+.interest span:nth-child(4){ animation-delay:.6s;}
+.interest span:nth-child(5){ animation-delay:.8s;}
+.interest span:nth-child(6){ animation-delay: 1s;}
+.interest span:nth-child(7){ animation-delay: 1.2s;}
+
 
 
 @keyframes wave{
-    0%, 40%, 100% { 
+    0%,{ 
       transform: translate(0, 0);
       
     }
     10% { 
-      transform: translate(0, 300px); 
+      transform: translate(0, 500px); 
        
     }  
   }
-
 

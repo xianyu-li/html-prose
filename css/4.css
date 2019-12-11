@@ -57,7 +57,7 @@ a:visited{
 .interest span:nth-child(10){ animation-delay:.9s;}
 
 
-@keyframes wave{
+/* @keyframes wave{
     0%, 40%, 100% { 
       transform: translate(0, 0);
       
@@ -66,4 +66,4 @@ a:visited{
       transform: translate(0, -15px); 
        
     }  
-  }
+  } */
